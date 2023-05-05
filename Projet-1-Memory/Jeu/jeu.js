@@ -154,7 +154,7 @@ function init() {
                     //console.log('gagné');
                 }else{ //si l'égalité n'est pas constaté
                     //j'active le verrou car deux cartes sont déjà retournées
-                    Navigator.vibrate()
+                    
                     verrou = true;
                     setTimeout(()=>{
                         flipImage(click1);
