@@ -33,7 +33,7 @@ let verrou = false;
 let win =0 ;
 
 //afficher le tableau dans la console pour test
-/*function afficherplateau(){
+function afficherplateau(){
     let enligne = "";
     for(let i=0; i<=2;i++){
         for(let j = 0; j<=3;j++){
@@ -41,7 +41,7 @@ let win =0 ;
         }console.log(enligne);
         enligne ="";
     }
-}*/
+}
 
 
 
@@ -86,7 +86,7 @@ initialisePlateau();
 let tabjeu2 = [tabJeu[0][0],tabJeu[0][1],tabJeu[0][2],tabJeu[0][3],tabJeu[1][0],tabJeu[1][1],tabJeu[1][2],
 tabJeu[1][3],tabJeu[2][0],tabJeu[2][1],tabJeu[2][2],tabJeu[2][3]];
 
-//afficherplateau();
+afficherplateau();
 
 
 
