@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    font-family: 'Hind', sans-serif;
+}
+
+
+header {
+    background-color: #597081;
+    padding: 30px;
+}
+
+nav {
+    display: flex;
+  
+    
+}
+
+nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction:row;
+    align-items: center;
+    padding: 5px;
+}
+
+nav :hover{
+    color: rgb(75, 160, 173);
+    box-shadow: #000000  3px 1px ;
+    border: solid #000000;
+}
+
+a {
+    text-decoration: none;
+    font-size:large;
+    color: white;
+
+}
+
+body {
+    background-color: #7EA0B7; 
+   
+    
+}
+
+main {
+    height: 1100px;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+section div{
+    margin: 15px;
+    
+    
+}
+
+.form {
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    
+    
+}
+
+form {
+    justify-content: center ;
+   
+}
+
+fieldset {
+    width: 600px;
+    border-radius: 7px;
+    text-align: center;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color:#597081;
+    font-size: large;
+}
+
+div {
+    margin: 15px;
+    display: flex;
+    
+    
+}
+
+
+input {
+    width: 400px;
+    height: 25px;
+    border-radius: 4px;
+    padding-left: 10px;
+    
+
+}
+
+
+label {
+   display: inline-block;
+   padding-right: 50px;
+   text-align: start;
+   width: 200px;
+   font-size: medium;
+   line-height: 25px;
+   text-shadow: black 1px  ;
+    
+}
+
+.imgProfil{
+    width: 50px;
+    height: 50px;
+
+}
+
+
+.selecteur{
+    position: absolute;
+    width: 150px;
+    height: 25px;
+    margin-left:0%;
+    margin-top: 5%;
+    
+}
+
+.choixCategorie{
+    display: flex;
+
+}
+
+h2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+
+
+
+.option{
+    margin-top: auto;
+    position: absolute;
+    margin-bottom: 25px;
+
+   
+}
+
+
+
+
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+.imagesJeu {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-right: 500px;
+    margin-top: 110px;
+
+}
+
+#imagesScrabble {
+    opacity: 0%;
+}
+
+#chiens {
+    opacity: 0%;
+}
+
+
+#imagesAnimaux{
+    opacity: 0%;
+}
+
+#imagesAnimauxAnimes{
+    opacity: 0%;
+}
+
+#imagesAnimauxDomestiques {
+    opacity: 0%;
+}
+
+#imagesDinosaures {
+    opacity: 0%;
+}
+
+#imagesDinosauresAvecNom {
+    opacity: 0%;
+}
+
+#imagesLegume {
+    opacity: 0%;
+}
+
+
+table{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin:auto;
+    padding: 50px;  
+    margin-bottom: 25px;
+    margin-top: 300px;
+    border-collapse: collapse;
+    width: 500px;
+    height: 150px;
+}
+
+
+
+
+
+  
+  th, td{
+    border: 1px solid black;
+    padding: 10px;
+    margin: auto;
+    font-size: small;
+  }
+
+footer{
+    background-color:   #597081;
+    padding : 50px;
+}

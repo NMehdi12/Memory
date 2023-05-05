@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    font-family: 'Hind', sans-serif;
+}
+
+
+header {
+    background-color: #597081;
+    padding: 30px;
+}
+
+
+nav {
+    display: flex;
+  
+    
+}
+
+
+nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction:row;
+    align-items: center;
+    padding: 5px;
+}
+
+
+nav :hover{
+    color: rgb(75, 160, 173);
+    box-shadow: black  3px 1px ;
+    border: solid black;
+}
+
+
+a {
+    text-decoration: none;
+    font-size:large;
+    color: white;
+
+}
+
+
+body {
+    background-color: #7EA0B7; 
+
+    
+}
+
+
+main {
+    height: 750px;
+    display: flex;
+}
+
+
+fieldset {
+    width: 750px;
+    border-radius: 7px;
+    text-align: center;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    background-color:#597081;
+    font-size: large;
+}
+
+
+div {
+    margin: 15px;
+    display: flex;
+    
+    
+}
+
+
+input {
+    width: 400px;
+    height: 25px;
+    border-radius: 4px;
+    padding-left: 10px;
+    
+
+}
+
+
+label {
+   display: inline-block;
+   padding-right: 50px;
+   text-align: start;
+   width: 200px;
+   font-size: medium;
+   line-height: 25px;
+   text-shadow: black 1px 0px 1px ;
+    
+}
+
+
+footer{
+    background-color:   #597081;
+    padding : 50px;
+}
+
+
+
+
+
+section div{
+    margin: 15px;
+    
+    
+}
+
+.sectionForm {
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    
+    
+}
+
+form {
+    justify-content: center ;
+   
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.textnom {
+    display: flex;
+    justify-content: end;
+    margin-right: 170px;
+    color:#eceff2ab;
+    padding: 0%;
+    font-size:75%;
+}
+
+
+.textemail {
+    display: flex;
+    justify-content: end;
+    margin-right: 347px;
+    color:#eceff2ab;
+    padding: 0%;
+    font-size:75%;
+}
+
+
+
+.textmdp {
+    display: flex;
+    justify-content: end;
+    margin-right: 154px;
+    color:#eceff2ab;
+    padding: 0%;
+    font-size:75%;
+    
+   
+}
+
+.checkValid {
+    margin-left : 680px;
+    margin-top: 3px;
+    width: 25px;
+    height: 25px;
+    opacity: 0%;
+    position: absolute;
+}
+
+.error {
+    width: 25px;
+    height: 25px;
+    opacity: 0%;
+    position: absolute;
+    margin-left :680px;
+    margin-top: 3px;
+}
+
+
+.d-grid {
+    display: flex;
+    justify-content: space-between;
+    padding : 25px;
+    width: 550px;
+    height: 25px;
+    margin: auto;
+    
+}
+
+.btn {
+    justify-content: space-between;
+    width: 180px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.btn :hover{
+    box-shadow: black 2px 2px 2px;
+}
+
+.qualiteMdp{
+    display: flex;
+    justify-content: space-between;
+    width: 290px;
+    margin-left : 320px;
+}
+
+.solidmdp{
+font-size:medium;
+justify-content: space-around;
+opacity: 15%;
+color: #f0f8ff;
+}
+

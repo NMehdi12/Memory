@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Inscription.css">
+    
+    
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="http://127.0.0.1:5500/Projet-1-Memory/Accueil/index.html">Accueil</a>
+            <a href="http://127.0.0.1:5500/Projet-1-Memory/Inscription/Inscription.html">S'inscrire</a>
+            <a href="http://127.0.0.1:5500/Projet-1-Memory/Se%20connecter/connexion.html">Se connecter</a> 
+            <a href="http://127.0.0.1:5500/Projet-1-Memory/Profil/profil.html">Profil</a>
+            <a href="http://127.0.0.1:5500/Projet-1-Memory/Jeu/jeu.html">Jouer</a>
+        </nav>
+    </header>
+    <main>
+        <section class="sectionForm">
+            <fieldset>
+                <legend><strong>Inscription</strong></legend>
+                <form action="" method="post" id="formulaire">
+
+                    <div>
+                        <label for="nom">Nom d'utilisateur :</label> 
+                        <input type="text" name="nom" id="name" placeholder="3 caractères minimum" autofocus required>
+                        <img class="checkValid" src="images/check.svg" id="checkIconeNom">
+                        <img class="error" src="images/error.svg" id="errorIconeNom">
+                    </div>
+                    <div class="textnom">
+                        <p id="textealertnom">Choisissez un pseudo contenant au moins 3 caractères.</p>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">Entrez votre email :</label> 
+                        <input type="email" name="email" id="email" placeholder="Votre email : exemple.jhon@salut.fr"required>
+                        <img class="checkValid" src="images/check.svg" id="checkIconeEmail">
+                        <img class="error" src="images/error.svg" id="errorIconeEmail">
+                    </div>
+                    <div class="textemail">
+                        <p id="textealertemail">Rentrez un email valide.</p>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="mdp">Mot de Passe :</label> <!--3caractère mini-->
+                        <input type="password" name="mdp" id="mdp" placeholder="votre mot de passe" required>
+                        <img class="checkValid" src="images/check.svg" id="checkIconeMdp">
+                        <img class="error" src="images/error.svg" id="errorIconeMdp">
+                    </div>
+                    <div class="textmdp">
+                        <p id="textealertmdp">Au moins un symbole, un chiffre et 6 caractères minimum.</p>
+                    </div>
+                    <div class="qualiteMdp">
+                    <p class="solidmdp" id="mdpFaible">Faible</p><p class="solidmdp" id="mdpMoyen">Moyen</p><p class="solidmdp" id="mdpFort">Fort</p>
+                </div>
+                    <br>
+                    <br>
+                    <div>
+                        <label for="mdpverif">Confirmer Mot de Passe :</label> 
+                        <input type="password" name="mdpverif" id="mdpVerif"  placeholder="confirmez votre mot de passe"required>
+                        <img class="checkValid" src="images/check.svg" id="checkIconeVerifMdp">
+                        <img class="error" src="images/error.svg" id="errorIconeVerifMdp">
+                    </div>
+                    <div class="d-grid gap-2 d-md-block">
+                        <button class="btn" id="button1" type="button"  >Création du compte</button>
+                        <button class="btn" id="button2" type="button" onclick="clear()">Annuler</button>
+                    </div>
+                </form> 
+            </fieldset>
+        </section>
+       
+    </main>
+    <footer>
+        <p>S/O Etienne </p>
+    </footer>
+    <script src="inscription.js"></script>
+    
+</body>
+</html>

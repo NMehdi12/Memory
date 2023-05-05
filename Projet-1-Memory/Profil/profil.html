@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="profil.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="http://127.0.0.1:5500/Projet-1-Memory/Accueil/index.html">Accueil</a>
+            <a href="http://127.0.0.1:5500/Projet-1-Memory/Inscription/Inscription.html">S'inscrire</a>
+            <a href="http://127.0.0.1:5500/Projet-1-Memory/Se%20connecter/connexion.html">Se connecter</a> 
+            <a href="http://127.0.0.1:5500/Projet-1-Memory/Profil/profil.html">Profil</a>
+            <a href="http://127.0.0.1:5500/Projet-1-Memory/Jeu/jeu.html">Jouer</a>
+        </nav>
+    </header>
+    <main>
+        <section class="form">
+            <fieldset>
+                <form action="" method="post" id="formulaireConnexion">
+                    <h1> Profil</h1>
+                    <img src="images/question.svg" class="imgProfil">
+                    <div>
+                        <label for="nom">Nom d'utilisateur :</label> 
+                        <p id="userNom"></p>
+                    </div>
+                    <div>
+                        <label for="email">Adresse mail :</label> 
+                        <p id="userMail"></p>
+                    </div>
+                    <div class="choixCategorie">
+                         <h2>Choix du memory</h2>
+                        <div class="selecteur">
+                        <select id="selecteurOption">
+                                <option value="choix" >--Choix options--</option>
+                                <option id="optionJeu1" value="Alphabet-scrabble">Alphabet-scrabble</option>
+                                <option id="optionJeu2" value="Animaux">Animaux</option>
+                                <option id="optionJeu3" value="Animaux animés">Animaux animés</option>
+                                <option id="optionJeu4" value="Animaux domestiques">Animaux domestiques</option>
+                                <option id="optionJeu5" value="Chiens">Chiens</option>
+                                <option id="optionJeu6" value="Dinosaures">Dinosaures</option>
+                                <option id="optionJeu7" value="Dinosaures Avec Nom">Dinosaures Avec Nom</option>
+                                <option id="optionJeu8" value="Memory-legume">legume</option>
+                            
+                        
+                        </select>
+                        </div>
+                        <div class="images"> 
+                            <img src="images/chiens.png" alt="" class="imagesJeu" id="chiens">
+                            <img src="images/scrabble.png" value="scrabble" class="imagesJeu" id="imagesScrabble" >
+                            <img src="images/animaux.png" value="scrabble" class="imagesJeu" id="imagesAnimaux" >
+                            <img src="images/animaux_animes.png" value="scrabble" class="imagesJeu" id="imagesAnimauxAnimes" >
+                            <img src="images/animaux_domestiques.png" value="scrabble" class="imagesJeu" id="imagesAnimauxDomestiques" >
+                            <img src="images/dinosaures.png" value="scrabble" class="imagesJeu" id="imagesDinosaures" >
+                            <img src="images/dinosaures_avec_nom.png" value="scrabble" class="imagesJeu" id="imagesDinosauresAvecNom" >
+                            <img src="images/legume.png" value="scrabble" class="imagesJeu" id="imagesLegume" >
+                        </div>
+                    </div>
+                </form>
+                
+                <table>
+                    <tr>
+                      <th>Pseudo</th>
+                      <th>Score</th>
+                      <th>Taille</th>
+                      <th>Choix Memory</th>
+                      <th>Date</th>
+                      
+                    </tr>
+                    <tr>
+                      <td>artheon</td>
+                      <td>6 </td>
+                      <td>4 par 3</td>
+                      <td>legume</td>
+                      <td>05/05/2023</td>
+                    </tr>
+                    <tr>
+                        <td>jean</td>
+                        <td>10</td>
+                        <td>4 par 3</td>
+                        <td>Legume</td>
+                        <td>05/05/2023</td>
+                      </tr>
+                    <tr>
+                      <td>Gaea</td>
+                      <td>12</td>
+                      <td>4 par 3</td>
+                      <td>Dinosaures</td>
+                      <td>05/05/2023</td>
+                    </tr>
+                    <tr>
+                        <td>Gaea</td>
+                        <td>12</td>
+                        <td>4 par 3</td>
+                        <td>Dinosaures</td>
+                        <td>05/05/2023</td>
+                      </tr>
+                  </table>
+            </fieldset>
+        </section>
+    </main>
+    <footer>
+        S/O Etienne
+    </footer>
+
+
+    <script src="profil.js"></script>
+</body>
+</html>

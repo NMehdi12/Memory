@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Se connecter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="connexion.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="http://127.0.0.1:5500/Projet-1-Memory/Accueil/index.html">Accueil</a>
+            <a href="http://127.0.0.1:5500/Projet-1-Memory/Inscription/Inscription.html">S'inscrire</a>
+            <a href="http://127.0.0.1:5500/Projet-1-Memory/Se%20connecter/connexion.html">Se connecter</a>
+            <a href="http://127.0.0.1:5500/Projet-1-Memory/Profil/profil.html">Profil</a>
+            <a href="http://127.0.0.1:5500/Projet-1-Memory/Jeu/jeu.html">Jouer</a>
+        </nav>
+    </header>
+    <main>
+        <section class="form">
+            <fieldset>
+                <form action="" method="post" id="formulaireConnexion">
+                    <h1> Connectez-vous</h1>
+                    <div>
+                        <label for="email">Adresse mail :</label> 
+                        <input type="email" name="nom" id="email" placeholder="Votre email" autofocus required>
+                    </div>
+                    <div>
+                        <label for="mdp">Mot de passe :</label> 
+                        <input type="password" name="mdp" id="mdp" placeholder="Votre mot de passe" required>
+                    </div>
+                    <div class="button">
+                        <button class="btn" id="button1" type="button">Connexion</button>
+                        <button class="btn" id="button2" type="button" onclick="clear()">Annuler</button>
+                    </div>
+                </form>
+            </fieldset>
+        </section>
+    </main>
+    <footer>
+        <p>Ma vie pour la horde </p>
+    </footer>
+<script src="connexion.js"></script>
+</body>
+</html>
