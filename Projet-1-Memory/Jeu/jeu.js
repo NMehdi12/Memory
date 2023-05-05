@@ -86,7 +86,7 @@ initialisePlateau();
 let tabjeu2 = [tabJeu[0][0],tabJeu[0][1],tabJeu[0][2],tabJeu[0][3],tabJeu[1][0],tabJeu[1][1],tabJeu[1][2],
 tabJeu[1][3],tabJeu[2][0],tabJeu[2][1],tabJeu[2][2],tabJeu[2][3]];
 
-afficherplateau();
+//afficherplateau();
 
 
 
@@ -141,7 +141,7 @@ function init() {
                 //si c'est le deuxieme click je compare this (le nouveau click) avec click1
                 if (click1.src === this.src){
                     nb_click = 0;
-                    click1 = 0; //je reset pour plus de précautions 
+                    click1 = 0; //je reset dans le doute
                     win ++;
                     console.log(win);
                     if(win === 6 && this !== 0){
@@ -167,7 +167,7 @@ function init() {
                         //console.log('perdu'); 
                         //je reset tout et je desactive le verrou
                         verrou = false;
-                    },1500); 
+                    },5000); 
                     }
                 }
 
