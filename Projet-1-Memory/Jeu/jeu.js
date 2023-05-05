@@ -148,7 +148,7 @@ function init() {
                         setTimeout(() => {
                             alert('GG, appuyez sur espace pour recommencer');
                         return
-                        }, 1000);
+                        }, 5000);
                         
                     }
                     //console.log('gagné');
